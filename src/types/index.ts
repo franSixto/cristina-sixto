@@ -2,7 +2,7 @@ export interface Product {
   id: string;
   name: string;
   price: number;
-  category: 'Deco Pared' | 'Porta Macetas' | 'Accesorios';
+  category: 'Deco Pared' | 'Porta Macetas' | 'Accesorios' | 'Insumos';
   image: string;
   gallery?: string[];
   description: string;
