@@ -23,7 +23,7 @@ export function Hero() {
             Artesanía & Decoración
           </span>
           <h1 className="text-5xl md:text-7xl font-serif font-bold text-taupe-dark mb-6 leading-tight">
-            Arte Textil y Macramé por <span className="text-terracotta whitespace-nowrap">Cristina Sixto</span>
+            Macramé hecho a mano por <span className="text-terracotta whitespace-nowrap">Cris Sixto</span>
           </h1>
           <p className="text-lg md:text-xl text-taupe mb-8 max-w-lg leading-relaxed">
             Piezas artesanales únicas creadas con fibras naturales para llenar de calidez y textura cada rincón de tu hogar.

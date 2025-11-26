@@ -1,10 +1,15 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Playfair_Display, Inter } from "next/font/google";
 import "./globals.css";
 import { CartProvider } from "@/context/cart-context";
 import { Navbar } from "@/components/layout/navbar";
 import { Footer } from "@/components/layout/footer";
 import { CartSidebar } from "@/components/cart/cart-sidebar";
+
+const playfair = Playfair_Display({
+  variable: "--font-playfair",
+  subsets: ["latin"],
+});
 
 const inter = Inter({
   variable: "--font-inter",
@@ -12,7 +17,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Cristina Sixto | Macramé Hecho a Mano",
+  title: "Cris Sixto | Macramé Hecho a Mano",
   description: "Piezas artesanales únicas para decorar tu hogar.",
 };
 
@@ -23,13 +28,8 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="es">
-      <head>
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
-        <link href="https://fonts.googleapis.com/css2?family=Google+Sans+Flex:opsz,wght@6..144,1..1000&display=swap" rel="stylesheet" />
-      </head>
       <body
-        className={`${inter.variable} antialiased bg-cream text-taupe-dark flex flex-col min-h-screen`}
+        className={`${playfair.variable} ${inter.variable} antialiased bg-cream text-taupe-dark flex flex-col min-h-screen`}
       >
         <CartProvider>
           <Navbar />

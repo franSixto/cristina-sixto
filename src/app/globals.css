@@ -8,7 +8,7 @@
   --color-terracotta: #C27C59;
   --color-sage: #A5B8A9;
 
-  --font-serif: "Google Sans Flex", sans-serif;
+  --font-serif: var(--font-playfair);
   --font-sans: var(--font-inter);
 }
 

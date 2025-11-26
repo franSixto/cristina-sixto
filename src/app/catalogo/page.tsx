@@ -14,7 +14,7 @@ export default async function CatalogPage({ searchParams }: CatalogPageProps) {
     ? products.filter((p) => p.category === category)
     : products;
 
-  const categories = ['Todos', 'Deco Pared', 'Porta Macetas', 'Accesorios', 'Insumos'];
+    const categories = ['Todos', 'Deco Pared', 'Porta Macetas', 'Accesorios', 'Insumos', 'Decoración'];
 
   return (
     <div className="container mx-auto px-4 py-12">

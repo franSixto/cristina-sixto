@@ -13,7 +13,6 @@ export function Navbar() {
   const navLinks = [
     { href: '/', label: 'Inicio' },
     { href: '/catalogo', label: 'Catálogo' },
-    { href: '/catalogo?category=Insumos', label: 'Insumos' },
     { href: '/cursos', label: 'Cursos' },
     { href: '/#sobre-mi', label: 'Sobre Mí' },
   ];
@@ -23,7 +22,7 @@ export function Navbar() {
       <div className="container mx-auto px-4 h-20 flex items-center justify-between">
         {/* Logo */}
         <Link href="/" className="text-2xl font-serif font-bold text-taupe-dark">
-          Cristina Sixto
+          Cris Sixto
         </Link>
 
         {/* Desktop Nav */}

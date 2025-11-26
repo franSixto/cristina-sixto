@@ -7,7 +7,7 @@ export function Footer() {
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div>
-            <h3 className="text-2xl font-serif font-bold mb-4">Cristina Sixto</h3>
+            <h3 className="text-2xl font-serif font-bold mb-4">Cris Sixto</h3>
             <p className="text-cream/80 max-w-xs">
               Creando piezas únicas de macramé con amor y dedicación. Decoración consciente y artesanal.
             </p>
@@ -33,7 +33,7 @@ export function Footer() {
               </a>
             </div>
             <p className="mt-4 text-sm text-cream/60">
-              &copy; {new Date().getFullYear()} Cristina Sixto Macramé.
+              &copy; {new Date().getFullYear()} Cris Sixto Macramé.
             </p>
           </div>
         </div>
