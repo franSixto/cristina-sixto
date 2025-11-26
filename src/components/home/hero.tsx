@@ -29,12 +29,12 @@ export function Hero() {
             Piezas artesanales únicas creadas con fibras naturales para llenar de calidez y textura cada rincón de tu hogar.
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
-            <Link href="/catalogo">
+            <Link href="/#catalogo">
               <Button size="lg" className="w-full sm:w-auto">
                 Ver Catálogo
               </Button>
             </Link>
-            <Link href="#sobre-mi">
+            <Link href="/#sobre-mi">
               <Button variant="outline" size="lg" className="w-full sm:w-auto">
                 Conocer más
               </Button>

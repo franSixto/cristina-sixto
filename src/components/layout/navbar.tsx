@@ -12,8 +12,9 @@ export function Navbar() {
 
   const navLinks = [
     { href: '/', label: 'Inicio' },
-    { href: '/catalogo', label: 'Catálogo' },
-    { href: '/cursos', label: 'Cursos' },
+    { href: '/#catalogo', label: 'Catálogo' },
+    { href: '/#catalogo', label: 'Insumos' },
+    { href: '/#cursos', label: 'Cursos' },
     { href: '/#sobre-mi', label: 'Sobre Mí' },
   ];
 
